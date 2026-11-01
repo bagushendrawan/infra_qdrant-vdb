@@ -100,3 +100,9 @@ uv run ruff check src tests main.py
 The shared smoke suite tests all five query modes using synthetic embeddings in
 an isolated collection and deletes that collection afterward. It does not require
 BGE-M3 for its Qdrant check. Production-scale latency and RAM remain deployment checks.
+
+## Original resources
+
+- [Qdrant Python client](https://github.com/qdrant/qdrant-client) — upstream client and embedded local storage implementation used by this service.
+- [Qdrant](https://github.com/qdrant/qdrant) — upstream vector search engine and server deployment option.
+- [BAAI/bge-m3 model card](https://huggingface.co/BAAI/bge-m3) — embedding model whose dense, sparse, and ColBERT outputs this API accepts.
